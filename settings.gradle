@@ -1,0 +1,2 @@
+rootProject.name='StyleJazz'
+include ':app'

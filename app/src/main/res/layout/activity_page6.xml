@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shopping2"
+
+
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+
+        android:id="@+id/titlerowId"
+        android:layout_marginTop="25dp"
+        android:background="#f0d5f0"
+        >
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+
+            android:text="Cash Memo"
+
+
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="#b03060"
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/secrowId"
+        android:layout_marginTop="10dp"
+        android:background="#fae8fa"
+        >
+
+        <TextView
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Item"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="Quantity"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="Price"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/thrdrowId"
+        android:layout_marginTop="7dp"
+        android:background="#fae8fa"
+        >
+
+    <TextView
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Dress"
+        android:textColor="#b03060"
+        android:textIsSelectable="true"
+        android:textSize="27dp"
+        android:textStyle="italic" />
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:text="2"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+
+
+    <TextView
+        android:layout_height="40dp"
+        android:baselineAligned="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="150 $"
+        android:textColor="#b03060"
+        android:textIsSelectable="true"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+</TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/frthrowId"
+        android:layout_marginTop="0dp"
+        android:background="#fae8fa"
+        >
+
+        <TextView
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Lipstick"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="27dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:text="2"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:layout_height="40dp"
+            android:baselineAligned="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="  95 $"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/fifthrowId"
+        android:layout_marginTop="0dp"
+        android:background="#fae8fa"
+        >
+
+        <TextView
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Eye Shadow"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="27dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:text="1"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:layout_height="40dp"
+            android:baselineAligned="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="  80 $"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/sixthrowId"
+        android:layout_marginTop="0dp"
+        android:background="#fae8fa"
+        >
+
+        <TextView
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Mascara"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="27dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_height="42dp"
+            android:baselineAligned="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:text="1"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="33dp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:layout_height="40dp"
+            android:baselineAligned="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="  60 $"
+            android:textColor="#b03060"
+            android:textIsSelectable="true"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+
+    </TableRow>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shopping2"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="150sp"
+            android:baselineAligned="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="  Thanks for Shopping ^_^"
+            android:textColor="#6e3249"
+            android:textIsSelectable="true"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+
+
+    </RelativeLayout>
+
+
+</TableLayout>

@@ -1,0 +1,106 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shopping2"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/dress1"
+        android:src="@drawable/dress1"
+        android:scaleType="fitXY"
+
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:text="Choose Your Wardrobe ^_^"
+        android:textColor="#b03060"
+        android:textIsSelectable="true"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/dress2"
+        android:src="@drawable/dress2"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/dress3"
+        android:src="@drawable/dress3"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/dress4"
+        android:src="@drawable/dress4"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/dress5"
+        android:src="@drawable/dress5"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/dress6"
+        android:src="@drawable/dress6"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/PrevButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/arwbtn" />
+        <Button
+            android:id="@+id/NextButton"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/arwbtn2"
+            android:baselineAligned="false" />
+
+    </RelativeLayout>
+</FrameLayout>

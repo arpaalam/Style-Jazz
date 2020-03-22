@@ -1,0 +1,67 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/userIdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="30dp"
+        android:hint="@string/userIdString"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="74dp"
+        android:hint="@string/userPasswordString"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_x="-2dp"
+        android:layout_y="160dp"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffbbff"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="21dp"
+        android:layout_x="320dp"
+        android:layout_y="634dp"
+        android:background="@drawable/arwbtn2" />
+
+    <Button
+        android:id="@+id/PrevButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="21dp"
+        android:layout_x="9dp"
+        android:layout_y="638dp"
+        android:background="@drawable/arwbtn" />
+
+
+</AbsoluteLayout>

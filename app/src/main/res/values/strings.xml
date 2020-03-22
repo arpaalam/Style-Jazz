@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StyleJazz</string>
+
+    <string name="Ques">Want to shop?</string>
+    <string name="EditTExt1">Quantity?</string>
+    <string name="Eye">Eye Shadow</string>
+    <string name="l1">Yaay!! Lipstick is mine! </string>
+    <string name="e1">Yaay!! Eyeliner is mine! </string>
+    <string name="m1">Yaay!! Mascara is mine! </string>
+    <string name="e2">Yaay!! Eye Shadow is mine! </string>
+    <string name="userIdString">Enter Your Full Name</string>
+    <string name="userPasswordString">Enter Your Password</string>
+
+    <string-array name="Shopping_Malls">
+        <item>Noir</item>
+        <item>Infinity</item>
+        <item>Lakme</item>
+        <item>Flormar</item>
+
+    </string-array>
+
+
+</resources>

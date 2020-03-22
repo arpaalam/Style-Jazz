@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shopping2"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shopping Time!"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:textSize="40dp"
+                android:textStyle="italic"
+                android:textColor="#b03060"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Ques"
+                android:textColor="#b03060"
+                android:layout_margin="20dp"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:textStyle="italic"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="10dp"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/yesId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_gravity="left"
+                    android:textSize="25sp"
+                    android:textStyle="italic"
+                    android:background="@drawable/custom_button"
+                    android:textColor="#ffbbff"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+
+                    android:layout_margin="1sp"
+                    android:textIsSelectable="true"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+
+                    />
+
+            </RadioGroup>
+
+                <RadioButton
+                    android:id="@+id/NoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button"
+                    android:text="No"
+                    android:textColor="#ffbbff"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Shop:"
+                android:textAlignment="center"
+                android:textColor="#b03060"
+                android:layout_margin="1sp"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:textStyle="italic"/>
+            <Spinner
+                android:id="@+id/spinnerId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                android:textAlignment="center"
+                android:textColor="#b03060"
+                android:textStyle="italic"
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="1sp"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:textStyle="italic"/>
+            <Button
+                android:id="@+id/okId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:layout_marginLeft="150dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:background="@drawable/custom_button"
+                android:textColor="#ffbbff"
+
+                />
+            <TextView
+                android:id="@+id/shopTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="20dp"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:textColor="#ffbbff"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textStyle="italic"
+                android:hint="Items:"
+                android:textColorHint="#b03060"
+
+                android:textAlignment="center"
+                android:inputType="number"
+                />
+
+            <CheckBox
+                android:id="@+id/lipId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lipstick"
+                android:textColor="#b03060"
+                android:textSize="25sp"
+                android:textStyle="italic"
+
+                />
+            <CheckBox
+                android:id="@+id/eyelId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eyeliner"
+                android:textSize="25sp"
+                android:textColor="#b03060"
+                android:textStyle="italic"
+
+                />
+
+            <CheckBox
+
+                android:id="@+id/masId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mascara"
+                android:textColor="#b03060"
+                android:textSize="25sp"
+                android:textStyle="italic"
+
+                />
+
+            <CheckBox
+                android:id="@+id/eyesId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Eye"
+                android:textColor="#b03060"
+                android:textSize="25sp"
+                android:textStyle="italic"
+
+                />
+            <Button
+                android:id="@+id/BuyId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy"
+                android:textSize="25sp"
+                android:background="@drawable/custom_button"
+                android:textColor="#ffbbff"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:id="@+id/resultId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:textColor="#b03060"
+                android:textStyle="italic"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boooo!"
+                android:textColor="#b03060"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:textSize="40dp"
+                android:textStyle="italic"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/PrevButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="312dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/arwbtn" />
+
+                <Button
+                    android:id="@+id/NextButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/arwbtn2"
+                    android:baselineAligned="false" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
